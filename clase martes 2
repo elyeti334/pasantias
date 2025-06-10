@@ -1,0 +1,59 @@
+"""
+lista=[20,10,5,50,18,120,1.99,119]
+num=7
+if num in lista:
+    print("el numero 7 esta en la lista")
+else:
+    print("el numero 7 no esta en la lista")
+
+"""
+"""
+lista=[20,10,5,50,18,120,1.99,119]
+bandera=0
+for i in range(0,len(lista)):
+    if lista[i]==7:
+        bandera=1
+        print("el numero 7 esta en la lista")
+        break
+if bandera==0:
+    print("el numero 7 no esta en la lista")
+"""
+"""
+import math
+
+num=float(input("ingrese un numero "))
+raiz=math.sqrt(num)
+print(raiz)
+"""
+"""
+import math
+
+num_dec=float(input("ingrese un numero decimal"))
+num_abaj=math.ceil(num_dec)
+num_arrib=math.floor(num_dec)
+print(f"el numero redondeado para arriba es {num_arrib} y el numero para abajo es {num_abaj}")
+"""
+"""
+import math
+
+angulo=input("ingrese un angulo en grados ")
+angulo=float(angulo.replace("°",""))
+angulo=math.radians(angulo)
+sin=math.sin(angulo)
+print(sin)
+cos=math.cos(angulo)
+print(cos)
+tan=math.tan(angulo)
+print(tan)
+"""
+"""
+palabra=float(input("ingrese una palabra "))
+letra=float(input("ingrese una letra"))
+cant_letra=0
+for letra in palabra:
+   if letra in palabra:
+    cant_letra+=1
+    print(cant_letra)
+
+"""
+
