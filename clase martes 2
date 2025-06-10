@@ -57,3 +57,23 @@ for letra in palabra:
 
 """
 
+import random
+numero=random.randint(0,100)
+bandera =  False
+while bandera != True:
+    num=int(input("ingrse un numero del 1-100  "))
+    print("verificando numero")
+    if num==numero:
+        print("felicitaciones lo adivbinaste")
+        bandera=True
+    else:
+        if num>numero:
+            print("el numero que ingresaste es mayor")
+        else:
+            print("el numero que ingresaste es menor")
+
+    
+
+    
+
+
