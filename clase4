@@ -1,0 +1,62 @@
+"""
+def calcular_temp(temp_max, temp_min):
+        return(temp_max+temp_min)/2
+    
+if __name__== '__main__':
+
+    cant_dias=int(input("ingrese la cantidad de dias a consultar "))
+    for i in range(cant_dias):
+        cant_dias+=1
+        print(f"dia {i+1}")
+        temp_max=float(input("ingrese la temperatura maxima "))
+        temp_min=float(input("ingrese la temperatura minima "))
+    
+        temp_media=calcular_temp(temp_max,temp_min)
+        print(f"la temperatura media del dia {i+1} fue de {temp_media}°")
+"""
+"""
+def ConvertirEspaciado(texto):
+    resultado = ""
+    for letra in texto:
+        resultado += letra + " "
+    return resultado
+if __name__== '__main__':
+    texto=input("ingrese un texto ")
+    textoEspaciado=ConvertirEspaciado(texto)
+    print(f"el texto espaciado es :{textoEspaciado}")
+"""
+"""
+def CalcularMaxMin(Lista):
+    ValorMax=max(Lista)
+    ValorMin=min(Lista)
+    return ValorMax, ValorMin
+if __name__ in "__main__":
+    lista=[]
+    CantValor=int(input("ingrese la cantidad de valores a ingresar "))
+    for i in range(CantValor):   
+        Valor=input("Ingrese un valor ")
+        lista.append(Valor)
+    ValorMax=max(lista)
+    ValorMin=min(lista)
+    print(f"el valor maximo de la lista es {ValorMax} y el valor minimo es {ValorMin}")
+"""
+def CalcularMaxMin(Lista):
+    pares=0
+    impares=0
+    return pares,impares
+if __name__== '__main__':
+    listaPar=[]
+    ListaImpar=[]
+    CantValor=int(input("ingrese la cantidad de valores a ingresar "))
+    for Valor in range(CantValor):   
+        if Valor % 2 == 0:
+            listaPar+=1
+            print("el valor es par")
+        else:
+            ListaImpar+=1
+            print("el valor es impar")
+
+      
+
+
+    
